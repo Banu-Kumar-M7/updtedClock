@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body >
+
+        <div class="t">Time is an illusion!</div>
+        <div class="named">
+        <label class="naming">Select Time zone</label>
+        <select id="language" onChange="update()" class="drop">
+            <Option value='+5.5'>Asia/Kolkata</Option>
+            <Option value='-4'>America/New_York</Option>
+            <Option value='+2'>Europe/Berlin</Option>
+            <Option value='+3'>Asia/Moscow</Option>
+            </select>
+            </div>
+
+        <div class="clock">
+            <div class="point"></div> 
+            <div class="minute-hand-wrapper" id="one" >
+                <div class="minute-hand">
+                    <div class="hand"></div>
+                    <div class="arrow">V</div>
+                </div>
+           </div>
+
+           <div class="hour-hand-wrapper" id="two" >
+                <div class="hour-hand"  >
+                    <div class="hand"></div>
+                    <div class="arrow">V</div>
+                </div>
+            </div>
+
+            
+             <div class="second-hand-wrapper" id="three" >
+                <div class="second-hand"  >
+                    <div class="hand"></div>
+                    
+                </div>
+            </div>
+
+           
+
+
+            </div>
+
+            <div class="digital">
+                <div class="clc">
+                <span id="hour">00</span>
+                <span>:</span>
+                <span id="minute">00</span>
+                <span>:</span>
+                <span id="seconds">00</span>
+                <span id="session">PM</span>
+            </div>
+            </div>
+      
+        
+        <script src="index.js" async defer></script>
+    </body>
+</html>

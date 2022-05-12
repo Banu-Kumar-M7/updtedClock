@@ -1,0 +1,43 @@
+body{
+    background-color:rgb(99, 153, 214) ;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden
+  }
+.t{
+    font-size: 80px;
+    font-weight: 500;
+    color:white;
+    font-family: 'Oleo Script', cursive;
+    text-align: center;
+}
+.naming{
+    color:white;
+    font-size: 60px;
+    font-family: 'Oleo Script', cursive;
+}
+
+.named{
+    position: relative;
+    top:30%;
+    left:30%;
+    translate: transform(-50%,-50%);
+
+}
+
+.b1{
+    position:absolute;
+    width: 500px;
+    height:70px;
+    border-radius: 25%;
+    border:none;
+    color:rgb(99, 153, 214);
+    font-size: 40px;
+    cursor: pointer;
+
+
+}

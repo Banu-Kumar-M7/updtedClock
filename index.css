@@ -1,0 +1,184 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden
+  }
+.t{
+    font-size: 80px;
+    font-weight: 500;
+    color:white;
+    font-family: 'Oleo Script', cursive;
+    text-align: center;
+}
+body{
+    background-color:rgb(99, 153, 214);
+    position:relative;
+}
+.clock{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    
+    border-radius: 50%;
+    position:relative;
+    left:50px;
+    top: -20px;
+    background-image: url('clock.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.point{
+    background-color: rgb(99, 153, 214);
+    height:20px;
+    width: 20px;
+    border-radius: 50%;
+    left: 240px;
+    top:240px;
+    position: absolute;
+}
+
+.minute-hand-wrapper{
+    height: 400px;
+    width: 400px;
+    position:absolute;
+    left:50px;
+    top:50px;
+    border-radius: 50%;
+   
+
+}
+
+.minute-hand{
+    position: relative;
+
+}
+
+.minute-hand .hand{
+    width:2px;
+    top:30px;
+    height: 160px;
+    left:200px;
+    position: absolute;
+    background-color: blue;
+}
+
+.minute-hand .arrow{
+    font-size: bold;
+    transform: rotate(180deg);
+    font-weight: bolder;
+    width:2px;
+    top: 25px;
+    left:205px;
+    position: absolute;
+    color: blue;
+}
+
+.hour-hand-wrapper{
+    height: 300px;
+    width: 300px;
+    position:absolute;
+    left:100px;
+    top:100px;
+    border-radius: 50%;
+   
+
+}
+
+
+
+.hour-hand{
+    position: relative;
+
+}
+
+.hour-hand .hand{
+    width:2px;
+    top:30px;
+    height: 110px;
+    left:150px;
+    position: absolute;
+    background-color: rgb(158, 107, 40);
+}
+
+.hour-hand .arrow{
+    font-size: bold;
+    transform: rotate(180deg);
+    font-weight: bolder;
+    width:2px;
+    top: 25px;
+    left:155px;
+    position: absolute;
+    color: rgb(158, 107, 40);
+}
+
+
+
+.second-hand{
+    position: relative;
+
+}
+
+.second-hand .hand{
+    width:2px;
+    top:30;
+    height: 160px;
+    left:200px;
+    position: absolute;
+    background-color: black;
+
+}
+
+.second-hand-wrapper{
+    height: 400px;
+    width: 400px;
+    position:absolute;
+    left:50px;
+    top:50px;
+    border-radius: 50%;
+   
+
+}
+
+
+.digital{
+    width: 500px;
+    height: 250px;
+    bottom: 60%;
+  
+    left:55%;
+    background-color: white;
+    position: relative;
+    border-radius: 15%;
+}
+
+.clc{
+    text-align: center;
+    font-weight: bolder;
+    font-size:60px;
+    color:rgb(99, 153, 214);
+    top:80px;
+    left:60px;
+    position: absolute;
+
+}
+
+.drop{
+    font-family: 'Oleo Script', cursive;
+    background-color:rgb(99, 153, 214) ;
+    color:white;
+    font-size: 20px;
+}
+.naming{
+    color:white;
+    font-size: 20px;
+    font-family: 'Oleo Script', cursive;
+}
+
+.named{
+    position: relative;
+    left:60%
+}
